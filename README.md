@@ -1,9 +1,27 @@
 # Caravel User Project
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![UPRJ_CI](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml) [![Caravel Build](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml)
+## Test SOC
 
-| :exclamation: Important Note            |
-|-----------------------------------------|
+```bash
+cd ~/Workspace/MPW-5/
+
+export PDK_ROOT=$PWD
+export CARAVEL_ROOT=$PWD/caravel_user_project/caravel
+export OPENLANE_ROOT=$PWD/openlane
+
+cd -
+
+#cd $PDK_ROOT/caravel_user_project/
+#make install
+#make install_mcw
+#make openlane
+#make pdk
+#make uncompress
+#make user_proj_example
+#make user_project_wrapper
+#make compress
+#cd -
+```
 
 ## Please fill in your project documentation in this README.md file 
 
